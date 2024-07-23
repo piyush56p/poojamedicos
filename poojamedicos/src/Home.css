@@ -1,0 +1,58 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background-color: #042e38;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.big-button {
+  padding: 20px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: #054d61;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  white-space: nowrap;
+  height: 100px;
+  width: 300px;
+  text-align: center;
+}
+
+.big-button:hover {
+  background-color: #21a1f1;
+}
+
+.app-footer {
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
